@@ -21,7 +21,7 @@ npm start
 
 I was working on a side project for an e-commerce sort of store on ReactJS to host on AWS S3 + CloudFront. The project got cancelled so I decided to opensource the code in hopes that it may help someone else get started with ReactJS for ecommerce.  
 
-The project was built using  `create-react-app`, which is a global command-line utility that you use to create new projects in ReactJS. [Learn more here](https://github.com/facebookincubator/create-react-app)
+The project was built using  [create-react-app](https://github.com/facebookincubator/create-react-app), which is a global command-line utility that you use to create new projects in ReactJS.
 
 In addition to React, this app is also using 
 
