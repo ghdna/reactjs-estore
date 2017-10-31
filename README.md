@@ -8,6 +8,8 @@
 
 A simple & minimalist e-commerce accelerator store built with ReactJS, Redux, and Bootstrap 4. 
 
+### Demo: [https://ghdna.github.io/reactjs-estore](https://ghdna.github.io/reactjs-estore) 
+
 ## Installation 
 ```
 npm install
