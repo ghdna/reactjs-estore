@@ -23,7 +23,12 @@ I was working on a side project for an e-commerce sort of store on ReactJS to ho
 
 The project was built using  `create-react-app`, which is a global command-line utility that you use to create new projects in ReactJS. [Learn more here](https://github.com/facebookincubator/create-react-app)
 
-In addition to React, this app is also using [Redux](http://redux.js.org/) for state management and [Bootstrap 4](https://getbootstrap.com/) for responsive look & feel. 
+In addition to React, this app is also using 
+
+* [Redux](http://redux.js.org/) for state management
+* [Bootstrap 4](https://getbootstrap.com/) for responsive look & feel
+* [Axios](https://github.com/axios/axios) with Async/Await (ES8) as a Promise based HTTP client 
+* [Thunk](https://github.com/gaearon/redux-thunk) as a middleware for Redux
 
 ## Available Scripts
 
