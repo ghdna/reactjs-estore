@@ -1,4 +1,4 @@
-import axios from "axios";
+import request from "request-promise";
 
 const getProductsUri = "https://www.jasonbase.com/things/2MXJ.json";
 
@@ -10,10 +10,10 @@ export const actionType = {
 export function getProducts(params) {
 	return async dispatch => {
 		try {
-			const request = await axios.get(getProductsUri);
+			const response = await request.get(getProductsUri);
 			dispatch({
 				type: actionType.GET_PRODUCTS,
-				payload: request.data
+				payload: JSON.parse(response)
 			});
 		} catch (e) {
 			console.error(e);
